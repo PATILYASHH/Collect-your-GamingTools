@@ -373,15 +373,26 @@ button:hover {
     font-size: 12px;
 }
 
-.social-links img {
-    height: 30px;
-    margin: 14px;
-    cursor: pointer;
-    transition: transform 0.3s;
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 0.2rem solid #b74b4b;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: #b74b4b;
 }
 
-.social-links img:hover {
-    transform: scale(1.2);
+.social-icons a:hover {
+    color: black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #b74b4b;
+    box-shadow: 0 0 25px #b74b4b;
 }
 
 
